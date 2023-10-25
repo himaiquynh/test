@@ -1,0 +1,237 @@
+footer {
+  /*background:url('../images/logo-big.png') -50% center no-repeat var(--primary-color) !important;*/
+  color: #ffffff;
+  padding: 0;
+}
+
+.dark-scheme footer{
+  background: #101010;
+}
+
+footer.footer-light {
+  background: #ffffff !important;
+  ;
+  border-top: solid 1px #d2d2d2;
+  color: #595d69;
+}
+
+footer.footer-light a {
+  color: #595d69;
+}
+
+.dark-scheme footer a{
+  color: #ffffff;
+}
+
+footer.footer-black {
+  background: #222222;
+}
+
+footer h5,
+.de_light footer h5 {
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer a {
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+.de-navbar-left footer {
+  padding: 70px 70px 0 70px;
+}
+
+.subfooter {
+  border-top: solid 1px rgba(255, 255, 255, .1);
+  padding: 20px 0 20px 0;
+}
+
+.footer-light .subfooter {
+  border-top: solid 1px rgba(0, 0, 0, .1);
+}
+
+.de-navbar-left .subfooter {
+  background: none;
+}
+
+.f-logo {
+  margin-right: 30px;
+}
+
+.rtl .f-logo {
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.de-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.de-flex>.de-flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* social-icons */
+
+
+/* ================================================== */
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons i {
+  text-shadow: none;
+  color: #fff;
+
+  padding: 9px 25px 8px 10px;
+
+  padding: 10px 25px 8px 10px;
+  padding: 9px 25px 8px 10px;
+
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  margin: 0 3px 0 3px;
+  background-color: #CA8E46;
+}
+
+.social-icons i.fa-google-plus {
+  padding: 12px 14px 10px 6px;
+}
+
+.social-icons i:hover {
+  background: rgba(75, 75, 75, 0.2);
+  border-color: #5e9aea;
+color: #746b6b;
+}
+
+.social-icons.big i {
+  font-size: 26px;
+  width: auto;
+  height: auto;
+  margin: 0 15px 0 15px;
+}
+
+.social-icons.big i:hover {
+  background: none;
+}
+
+.de-color-icons i{
+  text-shadow: none;
+  color: #fff;
+  padding: 12px 10px 8px 10px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  margin: 0 1px 10px 1px;
+}
+
+
+  .de-color-icons .fa-twitter{background: #3ea1ec;}
+  .de-color-icons .fa-facebook{background: #344e86;}
+  .de-color-icons .fa-google-plus{background: #d73925;}
+  .de-color-icons .fa-reddit{background: #c23321;}
+  .de-color-icons .fa-linkedin{background: #0976b4;}
+  .de-color-icons .fa-pinterest{background: #cc2127;}
+  .de-color-icons .fa-stumbleupon{background: #eb4924;}
+  .de-color-icons .fa-delicious{background: #198cff;}
+
+  .de-color-icons span{
+    cursor: poInter;
+    display: inline-block;
+  }
+
+  .de-color-icons span:hover{
+    transform: scale(1.1);
+  }
+
+/* .social-icons .fa-pinterest{background: #cc2127;}
+.social-icons .fa-facebook{background:#3e5a9b;}
+.social-icons .fa-twitter{background:#55aded;}
+.social-icons .fa-google-plus{background:#df4f37;}
+.social-icons .fa-linkedin{background:#0075ad;}
+.social-icons .fa-rss{background:#fb6506;}
+.social-icons .fa-skype{background:#28A8EA;} */
+
+
+.social-icons.big i {
+  margin: 0 15px 0 15px;
+}
+
+.social-icons.big i:hover {
+  background: none;
+}
+
+.social-icons.s1 i {
+  border: none;
+  font-size: 16px;
+  margin: 3px;
+}
+
+.social-icons.s1:hover i {
+  background: none;
+}
+
+.social-icons.s1 {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.social-icons.s1 .inner {
+  display: inline-block;
+  position: relative;
+}
+
+.social-icons.s1 .inner:before,
+.social-icons.s1 .inner:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  top: 0;
+  width: 100%;
+}
+
+.social-icons.s1 .inner:before {
+  right: 100%;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.social-icons.s1 .inner:after {
+  left: 100%;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.col-right {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.de-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.de-flex>.de-flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
